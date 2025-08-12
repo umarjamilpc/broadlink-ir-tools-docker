@@ -10,5 +10,5 @@ services:
             - NODE_ENV=development
             - TZ=Asia/Karachi
         restart: always
-        image: ghcr.io/umarjamilpc/BroadLinkIRToolsDocker:latest
+        image: ghcr.io/umarjamilpc/broadlink-ir-tools-docker:latest
 
