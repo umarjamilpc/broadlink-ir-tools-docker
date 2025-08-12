@@ -1,0 +1,14 @@
+services:
+    BroadlinkIRTools:
+        container_name: BROADLINK-IR-TOOL
+        ports:
+            - 8080:8080
+#        volumes:
+#            - /mnt/user/appdata/broadlink-ir-tool/app:/app
+#            - /mnt/user/appdata/broadlink-ir-tool/app:/app/node_modules
+        environment:
+            - NODE_ENV=development
+            - TZ=Asia/Karachi
+        restart: always
+        image: ghcr.io/umarjamilpc/BroadLinkIRToolsDocker:latest
+
