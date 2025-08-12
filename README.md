@@ -7,8 +7,8 @@ This tool support for SmartIR  https://github.com/smartHomeHub/SmartIR <br>
 
 ## How it work
 - Deploy it using docker compose file.
-- Docker Image: ghcr.io/umarjamilpc/broadlinkirtools:latest
-- Once deployed, Open with URL via : https://192.168.0.0:8080
+- Docker Image: ghcr.io/umarjamilpc/broadlink-ir-tools-docker:latest
+- Once deployed, Open with URL via , Replace ip with you ip address : https://192.168.0.0:8080
 - Disable ads block on browser. I dont add anymore ads to this site, but adblocker will block connection to your hass :( Sorry for the inconvenience
 - This will connect to your hass via webservice
 - Enter https address of your home assistant instance. (Only work with https)
@@ -31,8 +31,8 @@ This tool support for SmartIR  https://github.com/smartHomeHub/SmartIR <br>
 
 # For developer 
 ```
-git clone https://github.com/keitetran/BroadlinkIRTools.git
-cd BroadlinkIRTools
+git clone https://github.com/umarjamilpc/broadlink-ir-tools-docker.git
+cd broadlink-ir-tools-docker
 npm i
 npm run dev
 ```
