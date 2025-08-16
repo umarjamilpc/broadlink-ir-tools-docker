@@ -1,6 +1,6 @@
 # THIS IS THE FORK OF keitetran.github.io/BroadlinkIRTools REPO
 # NEW TOOL URL HERE
-https://keitetran.github.io/BroadlinkIRTools/dist/#/
+https://broadlink.ticta.cyou
 
 # Broadlink tools
 This tool support for SmartIR  https://github.com/smartHomeHub/SmartIR <br>
