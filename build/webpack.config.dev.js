@@ -27,6 +27,7 @@ module.exports = merge(baseConfig, {
     host: HOST,
     port: PORT,
     open: true,
+    allowedHosts: "all"
   },
 
   module: {
